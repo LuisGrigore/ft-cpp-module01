@@ -6,7 +6,7 @@
 /*   By: lgrigore <lgrigore@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/23 19:29:12 by lgrigore          #+#    #+#             */
-/*   Updated: 2026/04/28 18:00:05 by lgrigore         ###   ########.fr       */
+/*   Updated: 2026/04/28 18:09:41 by lgrigore         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ std::string replace(std::string line, std::string toReplace,
 
 int main(int argc, char* argv[]) {
   if (argc != 4) {
-    std::cerr << "Usage:   ...";
+    std::cerr << "Usage: " << argv[0] << " <filename> <s1> <s2>" << std::endl;
     return (1);
   }
 
