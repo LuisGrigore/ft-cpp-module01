@@ -6,17 +6,13 @@
 /*   By: lgrigore <lgrigore@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/28 17:50:40 by lgrigore          #+#    #+#             */
-/*   Updated: 2026/04/28 18:04:00 by lgrigore         ###   ########.fr       */
+/*   Updated: 2026/04/28 18:07:03 by lgrigore         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Harl.hpp"
 
 #include <iostream>
-
-// Harl::Harl() {}
-
-// Harl::~Harl() {}
 
 void Harl::debug(void) { std::cout << "This is a debug message." << std::endl; }
 

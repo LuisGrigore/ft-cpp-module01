@@ -3,16 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   randomChump.cpp                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lgrigore <lgrigore@student.42.fr>          +#+  +:+       +#+        */
+/*   By: lgrigore <lgrigore@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/23 16:34:40 by lgrigore          #+#    #+#             */
-/*   Updated: 2026/04/23 16:44:08 by lgrigore         ###   ########.fr       */
+/*   Updated: 2026/04/28 17:41:15 by lgrigore         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
 
-void randomChump(std::string name)
-{
-    Zombie(name).announce();
-}
+void randomChump(std::string name) { Zombie(name).announce(); }
